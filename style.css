@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.eye {
+  top:50%;
+  left: 50%;
+  margin-left: 70%;
+  position: absolute;
+  animation: mymove 8s infinite;
+  }
+  
+  .eye2 {
+    top:50%;
+    left: 50%;
+    margin-left: 70%;
+    position: absolute;
+    animation: mymove2 8s infinite;
+    }
+
+
+  @keyframes mymove {
+    0% {
+      
+      transform:rotate(90deg);}
+      20% {
+        
+        transform:rotate(90deg);}
+    40% {
+        transform:rotate(90deg);
+        }
+    60% {transform: rotate(180deg);
+      
+    }
+    80% {transform: rotate(270deg);
+      }
+    100% {transform: rotate(360deg);}
+  }
+
+  @keyframes mymove2 {
+    0% {
+      
+      transform:rotate(90deg);
+    }
+    20% {
+      transform:rotate(90deg);
+    }
+    40% { 
+      display: contents;
+      transform:rotate(90deg);
+      }
+    60% {transform: rotate(180deg);
+     }
+    80% {transform: rotate(270deg);
+      }
+    100% {transform: rotate(360deg);}
+  }
+
+  .face{
+    margin: 50%;
+  }
